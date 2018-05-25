@@ -21,7 +21,7 @@ namespace Laboratorio_3.Forms
         {
             btnIngresar.ForeColor = Color.Black;
             Hide();
-            using (Aldea aldea = new Aldea())
+            using (AldeaForm aldea = new AldeaForm())
             {
                 aldea.ShowDialog();
                 Application.Exit();

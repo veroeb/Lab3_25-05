@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Laboratorio_3.Forms
 {
-    public partial class Aldea : Form
+    public partial class AldeaForm : Form
     {
-        public Aldea()
+        public AldeaForm()
         {
             InitializeComponent();
             txtBoxAldea.KeyPress += new KeyPressEventHandler(CheckEnter);

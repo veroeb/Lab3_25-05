@@ -95,6 +95,7 @@
             this.btnRecolectorOro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRecolectorOro.BackgroundImage")));
             this.btnRecolectorOro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRecolectorOro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRecolectorOro.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnRecolectorOro.FlatAppearance.BorderSize = 0;
             this.btnRecolectorOro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnRecolectorOro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -131,6 +132,7 @@
             this.btnRecElixirNegro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRecElixirNegro.BackgroundImage")));
             this.btnRecElixirNegro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRecElixirNegro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRecElixirNegro.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnRecElixirNegro.FlatAppearance.BorderSize = 0;
             this.btnRecElixirNegro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnRecElixirNegro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -157,6 +159,7 @@
             this.btnRecElixirRojo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRecElixirRojo.BackgroundImage")));
             this.btnRecElixirRojo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRecElixirRojo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRecElixirRojo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnRecElixirRojo.FlatAppearance.BorderSize = 0;
             this.btnRecElixirRojo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnRecElixirRojo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -183,6 +186,7 @@
             this.btnAlmElixirNegro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAlmElixirNegro.BackgroundImage")));
             this.btnAlmElixirNegro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnAlmElixirNegro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlmElixirNegro.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnAlmElixirNegro.FlatAppearance.BorderSize = 0;
             this.btnAlmElixirNegro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnAlmElixirNegro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -209,6 +213,7 @@
             this.btnAlmElixirRojo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAlmElixirRojo.BackgroundImage")));
             this.btnAlmElixirRojo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnAlmElixirRojo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlmElixirRojo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnAlmElixirRojo.FlatAppearance.BorderSize = 0;
             this.btnAlmElixirRojo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnAlmElixirRojo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -235,6 +240,7 @@
             this.btnAlmOro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAlmOro.BackgroundImage")));
             this.btnAlmOro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnAlmOro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlmOro.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnAlmOro.FlatAppearance.BorderSize = 0;
             this.btnAlmOro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnAlmOro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -251,6 +257,7 @@
             this.btnCampamento.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCampamento.BackgroundImage")));
             this.btnCampamento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCampamento.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCampamento.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnCampamento.FlatAppearance.BorderSize = 0;
             this.btnCampamento.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnCampamento.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;

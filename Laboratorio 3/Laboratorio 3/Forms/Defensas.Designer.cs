@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Defensas));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnHome = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.btnTesla = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -54,7 +55,6 @@
             this.btnMuro = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.btnCañon = new System.Windows.Forms.Button();
-            this.btnHome = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,6 +80,25 @@
             this.panel1.Size = new System.Drawing.Size(805, 69);
             this.panel1.TabIndex = 6;
             // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.Color.Transparent;
+            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHome.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnHome.FlatAppearance.BorderSize = 0;
+            this.btnHome.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnHome.Location = new System.Drawing.Point(14, 19);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(127, 26);
+            this.btnHome.TabIndex = 41;
+            this.btnHome.Text = "Volver a inicio";
+            this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -95,6 +114,7 @@
             this.btnTesla.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTesla.BackgroundImage")));
             this.btnTesla.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTesla.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTesla.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnTesla.FlatAppearance.BorderSize = 0;
             this.btnTesla.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnTesla.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -121,6 +141,7 @@
             this.btnMagos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMagos.BackgroundImage")));
             this.btnMagos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMagos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMagos.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnMagos.FlatAppearance.BorderSize = 0;
             this.btnMagos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnMagos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -147,6 +168,7 @@
             this.btnInfierno.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInfierno.BackgroundImage")));
             this.btnInfierno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnInfierno.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInfierno.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnInfierno.FlatAppearance.BorderSize = 0;
             this.btnInfierno.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnInfierno.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -173,6 +195,7 @@
             this.btnBallesta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBallesta.BackgroundImage")));
             this.btnBallesta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnBallesta.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBallesta.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnBallesta.FlatAppearance.BorderSize = 0;
             this.btnBallesta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnBallesta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -199,6 +222,7 @@
             this.btnArqueras.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnArqueras.BackgroundImage")));
             this.btnArqueras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnArqueras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnArqueras.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnArqueras.FlatAppearance.BorderSize = 0;
             this.btnArqueras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnArqueras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -225,6 +249,7 @@
             this.btnAguila.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAguila.BackgroundImage")));
             this.btnAguila.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnAguila.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAguila.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnAguila.FlatAppearance.BorderSize = 0;
             this.btnAguila.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnAguila.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -275,6 +300,7 @@
             this.btnAntiaereo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAntiaereo.BackgroundImage")));
             this.btnAntiaereo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnAntiaereo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAntiaereo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnAntiaereo.FlatAppearance.BorderSize = 0;
             this.btnAntiaereo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnAntiaereo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -313,6 +339,7 @@
             this.btnMortero.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMortero.BackgroundImage")));
             this.btnMortero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMortero.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMortero.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnMortero.FlatAppearance.BorderSize = 0;
             this.btnMortero.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnMortero.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -339,6 +366,7 @@
             this.btnMuro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMuro.BackgroundImage")));
             this.btnMuro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMuro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMuro.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnMuro.FlatAppearance.BorderSize = 0;
             this.btnMuro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnMuro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -365,6 +393,7 @@
             this.btnCañon.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCañon.BackgroundImage")));
             this.btnCañon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCañon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCañon.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnCañon.FlatAppearance.BorderSize = 0;
             this.btnCañon.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnCañon.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -375,25 +404,6 @@
             this.btnCañon.TabIndex = 35;
             this.btnCañon.UseVisualStyleBackColor = true;
             this.btnCañon.Click += new System.EventHandler(this.btnCañon_Click);
-            // 
-            // btnHome
-            // 
-            this.btnHome.BackColor = System.Drawing.Color.Transparent;
-            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHome.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnHome.FlatAppearance.BorderSize = 0;
-            this.btnHome.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnHome.Location = new System.Drawing.Point(14, 19);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(127, 26);
-            this.btnHome.TabIndex = 41;
-            this.btnHome.Text = "Volver a inicio";
-            this.btnHome.UseVisualStyleBackColor = false;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // Defensas
             // 

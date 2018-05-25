@@ -16,8 +16,9 @@ namespace Laboratorio_3.Classes
     public class Aldea
     {
         //Codigo de Singleton para que no se pueda crear mas de una Aldea
-        private static Aldea Instancia = null;
-        private static Aldea GetInstancia()
+        public static Aldea Instancia = null;
+
+        public static Aldea GetInstancia()
         {
             if (Instancia == null)
             {
@@ -159,7 +160,7 @@ namespace Laboratorio_3.Classes
                         oro = a;
                     }
 
-                    if (al == AlmacenesOro[ultimo] && al.Lleno())
+                    else if (al == AlmacenesOro[ultimo] && al.Lleno())
                     {
                         int b = Ayu.Guardar(oro);
                         oro = b;
@@ -169,7 +170,7 @@ namespace Laboratorio_3.Classes
                             int final = Cas.Guardar(oro);
                         }
                     }
-                    if (oro == 0) break;
+                    else if (oro == 0) break;
                 }
                 break;
             }
@@ -214,7 +215,7 @@ namespace Laboratorio_3.Classes
             {
                 CantOro += Ayu.CantActual;
             }
-            if (AlmacenesOro.Count == almacenOroMax && Cas != null)
+            else if (AlmacenesOro.Count == almacenOroMax && Cas != null)
             {
                 CantOro += Cas.CantActual;
             }
@@ -240,7 +241,7 @@ namespace Laboratorio_3.Classes
                         a = ar.Guardar(rojo);
                         rojo = a;
                     }
-                    if (ar == AlmacenesRojo[ultimo] && ar.Lleno())
+                    else if (ar == AlmacenesRojo[ultimo] && ar.Lleno())
                     {
                         int b = Ayu.GuardarElixirRojo(rojo);
                         rojo = b;
@@ -250,7 +251,7 @@ namespace Laboratorio_3.Classes
                             int final = Cas.GuardarElixirRojo(rojo);
                         }
                     }
-                    if (rojo == 0) break;
+                    else if (rojo == 0) break;
                 }
                 break;
             }
@@ -267,7 +268,7 @@ namespace Laboratorio_3.Classes
                     if (ok == AlmacenesRojo[ultimo])
                     {
                         total += ok.CantActual;
-                        String r = "El elixir rojo es es: " + total.ToString();
+                        String r = "El elixir rojo es: " + total.ToString();
                         return r;
                     }
                     else
@@ -295,7 +296,7 @@ namespace Laboratorio_3.Classes
                     a = AlmacenNegro.Guardar(negro);
                     negro = a;
                 }
-                if (negro > 0)
+                else if (negro > 0)
                 {
                     int fin = Cas.GuardarElixirNegro(negro);
                 }

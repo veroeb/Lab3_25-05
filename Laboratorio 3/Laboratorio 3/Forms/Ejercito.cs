@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Laboratorio_3.Classes;
+using Laboratorio_3.Classes.Edificios.Almacenamiento.Almacenes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,10 @@ namespace Laboratorio_3.Forms
         public Ejercito()
         {
             InitializeComponent();
+
+            Aldea aldea = Aldea.GetInstancia();
+
+            aldea.Ayu = new Ayuntamiento();
         }
     }
 }

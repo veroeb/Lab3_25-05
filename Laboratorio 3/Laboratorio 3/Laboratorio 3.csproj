@@ -104,11 +104,11 @@
     <Compile Include="Classes\Tropas\Oscuras\TropaOscura.cs" />
     <Compile Include="Classes\Tropas\Oscuras\Valkiria.cs" />
     <Compile Include="Classes\Tropas\Tropa.cs" />
-    <Compile Include="Forms\Aldea.cs">
+    <Compile Include="Forms\AldeaForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Aldea.Designer.cs">
-      <DependentUpon>Aldea.cs</DependentUpon>
+    <Compile Include="Forms\AldeaForm.Designer.cs">
+      <DependentUpon>AldeaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Defensas.cs">
       <SubType>Form</SubType>
@@ -152,8 +152,8 @@
     <Compile Include="Interfaces\IAlmacenamientoTropas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\Aldea.resx">
-      <DependentUpon>Aldea.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\AldeaForm.resx">
+      <DependentUpon>AldeaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Defensas.resx">
       <DependentUpon>Defensas.cs</DependentUpon>
